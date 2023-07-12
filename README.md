@@ -7,7 +7,7 @@ import seaborn as sns
 from warnings import filterwarnings
 filterwarnings(action='ignore')
 
-wine = pd.read_csv("winequality-red.csv")
+wine = pd.read_exel("winequality-red.xlsx")
 print("Successfully Imported Data!")
 wine.head()
 
